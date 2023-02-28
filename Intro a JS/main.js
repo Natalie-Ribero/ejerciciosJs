@@ -66,8 +66,37 @@ const numeros= [1,2,3,4,56];
 console.log(numeros);
 
 // Ejercicio 15 (Crear un array llamado familia con un mínimo de 5 objetos y mostrar por consola el array completo y cada uno de los elementos por separado)
-familia= [
-    
+const familia= [
+    mama = {
+        nombre: "Susana",
+        apellido: "Sosa",
+        edad:59,
+        profesion: "ama de casa"
+    },
+    papa = {
+        nombre: "Susana",
+        apellido: "Sosa",
+        edad:59,
+        profesion: "ama de casa"
+    },
+    hijo1 = {
+        nombre: "Susana",
+        apellido: "Sosa",
+        edad:59,
+        profesion: "ama de casa"
+    },
+    hijo2 = {
+        nombre: "Susana",
+        apellido: "Sosa",
+        edad:59,
+        profesion: "ama de casa"
+    },
+    hijo3 = {
+        nombre: "Susana",
+        apellido: "Sosa",
+        edad:59,
+        profesion: "ama de casa"
+    }
 ]
 
 // Ejercicio 16 (Crear una variable llamada textoAleatorio formando una frase con el segundo elemento del array del punto 13, el cuarto elemento del punto 14 y el quinto objeto del array del punto 15)
