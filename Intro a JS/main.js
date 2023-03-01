@@ -58,50 +58,53 @@ const mascota = {
 console.table(mascota);
 
 // Ejercicio 13 (Crear un array llamado frutas con un mínimo de 5 elementos y mostrar por consola el array completo y cada uno de los elementos por separado)
-const frutas= ["naranja", "banana", "manzana", "pera", "sandia"];
+const frutas = ["naranja", "banana", "manzana", "pera", "sandia"];
 console.log(frutas);
 
 // Ejercicio 14 (Crear un array llamado números con un mínimo de 5 elementos y mostrar por consola el array completo y cada uno de los elementos por separado)
-const numeros= [1,2,3,4,56];
+const numeros = [1, 2, 3, 4, 56];
 console.log(numeros);
 
 // Ejercicio 15 (Crear un array llamado familia con un mínimo de 5 objetos y mostrar por consola el array completo y cada uno de los elementos por separado)
-const familia= [
+const familia = [
     mama = {
         nombre: "Susana",
         apellido: "Sosa",
-        edad:59,
+        edad: 59,
         profesion: "ama de casa"
     },
     papa = {
-        nombre: "Susana",
-        apellido: "Sosa",
-        edad:59,
-        profesion: "ama de casa"
+        nombre: "Fernando",
+        apellido: "Ribero",
+        edad: 45,
+        profesion: "panadero"
     },
     hijo1 = {
-        nombre: "Susana",
-        apellido: "Sosa",
-        edad:59,
-        profesion: "ama de casa"
+        nombre: "Javier",
+        apellido: "Olivera",
+        edad: 38,
+        profesion: "Chofer"
     },
     hijo2 = {
-        nombre: "Susana",
-        apellido: "Sosa",
-        edad:59,
-        profesion: "ama de casa"
+        nombre: "Irene",
+        apellido: "Olivera",
+        edad: 31,
+        profesion: "domestica"
     },
     hijo3 = {
-        nombre: "Susana",
-        apellido: "Sosa",
-        edad:59,
-        profesion: "ama de casa"
+        nombre: "Natalie",
+        apellido: "Ribero",
+        edad: 22,
+        profesion: "estudiante"
     }
-]
-
+];
+console.log(familia);
 // Ejercicio 16 (Crear una variable llamada textoAleatorio formando una frase con el segundo elemento del array del punto 13, el cuarto elemento del punto 14 y el quinto objeto del array del punto 15)
+let textoAleatorio = (frutas[2] + numeros[4] + familia[5]);
+console.log(textoAleatorio);
 
 // Ejercicio 17 (Utilizar prompt() para leer por pantalla mi edad y la edad de un compañero y mostrar por consola los resultados de comparar los valores y guardarlos en variables llamadas por ejemplo: edadesIguales, soyMayor, soyMenor, etc. Y mostrar mensajes en consola como los siguientes:Mi edad es igual a la de mi compañero: false, Mi edad es mayor a la de mi compañero: true,Mi edad es menor a la de mi compañero: false)
+
 
 // Ejercicio 18 (Compare su edad ingresada por pantalla con prompt() con el numero 18 y guardarlo en una variable llamada soyMayorDeEdad y mostrar por consola un mensaje que diga: Soy mayor de edad y el valor de la variable)
 
