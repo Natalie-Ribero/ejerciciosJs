@@ -1,6 +1,28 @@
 //Ejercicio 1 (Realizar un programa que dado 2 números imprima por consola si el primer numero es mayor que el segundo.)
+// let respuesta1 = prompt("Introduzca un numero");
+// let respuesta2 = prompt("Introduzca otro numero");
 
-//Ejercicio 2 (Realizar un programa que dado 2 números imprima por consola si los numeros son iguales o si son diferentes.) 
+// let numero1 = parseInt(respuesta1);
+// let numero2 = parseInt(respuesta2);
+
+// if (numero1 > numero2) {
+//     console.log("El primer numero es mayor al segundo");
+// } else {
+//     console.log("El segundo numero es mayor al primero");
+// }
+
+//Ejercicio 2 (Realizar un programa que dado 2 números imprima por consola si los numeros son iguales o si son diferentes.)
+let respuesta1 = prompt("Introduzca un numero");
+let respuesta2 = prompt("Introduzca otro numero");
+
+let numero1 = parseInt(respuesta1);
+let numero2 = parseInt(respuesta2);
+
+if (numero1 === numero2) {
+    console.log("Ambos numeros son iguales");
+} else {
+    console.log("Los numeros son diferentes");
+}
 
 //Ejercicio 3 (Realizar un programa que dado 2 números imprima por consola cual de los 2 numeros es el mas grande o si son iguales.)
 
