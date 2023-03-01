@@ -14,7 +14,6 @@ switch (pets) {
     default:
         console.log("I have pets")
         break;
-
 }
 
 if (age < 18) {

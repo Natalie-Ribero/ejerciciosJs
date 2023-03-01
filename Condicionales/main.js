@@ -68,7 +68,9 @@ const persona2 = {
     altura: 157 
 }
 
-switch 
+switch (persona1.altura > persona2.altura){
+    case
+}
 
 //Ejercicio 6 (Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.)
 
