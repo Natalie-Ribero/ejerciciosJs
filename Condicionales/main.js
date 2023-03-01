@@ -12,21 +12,48 @@
 // }
 
 //Ejercicio 2 (Realizar un programa que dado 2 números imprima por consola si los numeros son iguales o si son diferentes.)
-let respuesta1 = prompt("Introduzca un numero");
-let respuesta2 = prompt("Introduzca otro numero");
+// let respuesta1 = prompt("Introduzca un numero");
+// let respuesta2 = prompt("Introduzca otro numero");
 
-let numero1 = parseInt(respuesta1);
-let numero2 = parseInt(respuesta2);
+// let numero1 = parseInt(respuesta1);
+// let numero2 = parseInt(respuesta2);
 
-if (numero1 === numero2) {
-    console.log("Ambos numeros son iguales");
-} else {
-    console.log("Los numeros son diferentes");
-}
+// if (numero1 === numero2) {
+//     console.log("Ambos numeros son iguales");
+// } else {
+//     console.log("Los numeros son diferentes");
+// }
 
 //Ejercicio 3 (Realizar un programa que dado 2 números imprima por consola cual de los 2 numeros es el mas grande o si son iguales.)
+// let respuesta1 = prompt("Introduzca un numero");
+// let respuesta2 = prompt("Introduzca otro numero");
+
+// let numero1 = parseInt(respuesta1);
+// let numero2 = parseInt(respuesta2);
+
+// if (numero1 > numero2) {
+//     console.log("El primer numero es mayor al segundo");
+// } else if (numero1 < numero2){
+//     console.log("El segundo numero es mayor al primero");
+// }else{
+//     console.log("Ambos numeros son iguales");
+// }
+
 
 //Ejercicio 4 (Realizar un programa que dado 3 números imprima por pantalla cual de los 3 es el mas chico.)
+// let respuesta1 = prompt("Introduzca un numero");
+// let respuesta2 = prompt("Introduzca otro numero");
+
+// let numero1 = parseInt(respuesta1);
+// let numero2 = parseInt(respuesta2);
+
+// if (numero1 > numero2) {
+//     console.log("El primer numero es mayor al segundo");
+// } else if (numero1 < numero2){
+//     console.log("El segundo numero es mayor al primero");
+// }else{
+//     console.log("Ambos numeros son iguales");
+// }
 
 //Ejercicio 5 (Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.)
 
