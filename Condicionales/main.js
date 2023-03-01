@@ -56,6 +56,19 @@
 // }
 
 //Ejercicio 5 (Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.)
+const persona1 = {
+    nombre: "Guillermo",
+    edad: 22,
+    altura: 187 
+}
+
+const persona2 = {
+    nombre: "Natalie",
+    edad: 22,
+    altura: 157 
+}
+
+switch 
 
 //Ejercicio 6 (Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.)
 
