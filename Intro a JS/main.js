@@ -122,7 +122,13 @@
 // console.log("Soy mayor de edad " + miEdad);
 
 // Ejercicio 19 (Introducir por pantalla la edad y la altura de una persona y guardarlas en variables separadas y en una variable llamada puedeSubir el resultado de la operación resultante de si la persona es mayor de 6 años y además tiene una altura mínima de 120cm y mostrar por consola un mensaje como el siguiente: Puede subir a la atracción y el valor de la variable resultante)
-let miEdad = prompt("Introduce tu edad");
-let miAltura = prompt("Introduce tu altura");
+// let miEdad = prompt("Introduce tu edad");
+// let miAltura = prompt("Introduce tu altura en cm");
+// let puedeSubir = miEdad > 6 && miAltura >= 120;
+// console.log("Puede subir a la atraccion: " + puedeSubir);
 
 // Ejercicio 20 (Introducir por pantalla el pase de una persona el cual puede ser “VIP”, “NORMAL” o “LIMITADO”, el saldo que dispone y guardarlos en variables separadas. En una variable llamada puedePasar guardar el resultado de la operación resultante de si la persona tiene pase “VIP” o si posee un saldo mayor a 1000. Mostrando un mensaje que diga: La persona puede pasar y el resultado de la variable)
+// let pase = prompt("Introduzca su pase (“VIP”, “NORMAL” o “LIMITADO”)");
+// let saldo = prompt("Introduzca su saldo");
+// let puedePasar = pase === "VIP" | saldo >= 1000;
+// console.log("La persona puede pasar: "+ puedePasar);
