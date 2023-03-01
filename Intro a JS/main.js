@@ -109,9 +109,15 @@
 // console.log(textoAleatorio);
 
 // Ejercicio 17 (Utilizar prompt() para leer por pantalla mi edad y la edad de un compañero y mostrar por consola los resultados de comparar los valores y guardarlos en variables llamadas por ejemplo: edadesIguales, soyMayor, soyMenor, etc. Y mostrar mensajes en consola como los siguientes:Mi edad es igual a la de mi compañero: false, Mi edad es mayor a la de mi compañero: true,Mi edad es menor a la de mi compañero: false)
-
+// let miEdad = prompt("Introduce tu edad");
+// let edadCompañero = prompt("Introduce la edad de tu compañero");
+// let edadesIguales = miEdad === edadCompañero;
+// let soyMayor = miEdad > edadCompañero;
+// let soyMenor = miEdad < edadCompañero;
+// console.log(edadesIguales, soyMayor, soyMenor);
 
 // Ejercicio 18 (Compare su edad ingresada por pantalla con prompt() con el numero 18 y guardarlo en una variable llamada soyMayorDeEdad y mostrar por consola un mensaje que diga: Soy mayor de edad y el valor de la variable)
+
 
 // Ejercicio 19 (Introducir por pantalla la edad y la altura de una persona y guardarlas en variables separadas y en una variable llamada puedeSubir el resultado de la operación resultante de si la persona es mayor de 6 años y además tiene una altura mínima de 120cm y mostrar por consola un mensaje como el siguiente: Puede subir a la atracción y el valor de la variable resultante)
 
