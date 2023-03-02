@@ -1,4 +1,5 @@
 //Ejercicio 1 (Realizar un programa que dado 2 números imprima por consola si el primer numero es mayor que el segundo.)
+
 // let respuesta1 = prompt("Introduzca un numero");
 // let respuesta2 = prompt("Introduzca otro numero");
 
@@ -12,6 +13,7 @@
 // }
 
 //Ejercicio 2 (Realizar un programa que dado 2 números imprima por consola si los numeros son iguales o si son diferentes.)
+
 // let respuesta1 = prompt("Introduzca un numero");
 // let respuesta2 = prompt("Introduzca otro numero");
 
@@ -25,6 +27,7 @@
 // }
 
 //Ejercicio 3 (Realizar un programa que dado 2 números imprima por consola cual de los 2 numeros es el mas grande o si son iguales.)
+
 // let respuesta1 = prompt("Introduzca un numero");
 // let respuesta2 = prompt("Introduzca otro numero");
 
@@ -41,6 +44,7 @@
 
 
 //Ejercicio 4 (Realizar un programa que dado 3 números imprima por pantalla cual de los 3 es el mas chico.)
+
 // let respuesta1 = prompt("Introduzca un numero");
 // let respuesta2 = prompt("Introduzca otro numero");
 
@@ -56,25 +60,53 @@
 // }
 
 //Ejercicio 5 (Realizar un programa que dado 2 objetos representando personas con las propiedades nombre, edad y altura imprima por pantalla cual de las 2 personas es la mas alta y cual es la de mayor edad.)
-const persona1 = {
-    nombre: "Guillermo",
-    edad: 22,
-    altura: 187 
-}
 
-const persona2 = {
-    nombre: "Natalie",
-    edad: 22,
-    altura: 157 
-}
+// const persona1 = {
+//     nombre: "Guillermo",
+//     edad: 23,
+//     altura: 187
+// }
 
-switch (persona1.altura > persona2.altura){
-    case
-}
+// const persona2 = {
+//     nombre: "Natalie",
+//     edad: 22,
+//     altura: 157
+// }
+
+// switch (persona1.altura > persona2.altura) {
+//     case true:
+//         console.log(persona1.nombre + " Es mas alto/a que " + persona2.nombre);
+//         break;
+//     case false:
+//         console.log(persona2.nombre + " Es mas alto/a que " + persona1.nombre);
+//         break;
+// }
+
+// switch (persona1.edad > persona2.edad) {
+//     case true:
+//         console.log(persona1.nombre + " Es mayor que " + persona2.nombre);
+//         break;
+//     case false:
+//         console.log(persona2.nombre + " Es mayor que " + persona1.nombre);
+//         break;
+// }
 
 //Ejercicio 6 (Realizar un programa que permita ingresar por pantalla tu nombre, edad, altura, visión y permita determinar si estas capacitado para conducir. La persona deberá cumplir con una edad mínima de 18 años, medir mas de 150cm y tener una visión de 8 de 10 como mínimo.)
 
+// let nombre = prompt("Ingresa tu nombre");
+// let edad = prompt("Ingresa tu edad");
+// let altura = prompt("Ingresa tu altura en cm");
+// let vision = prompt("Ingrese su vision en un rango de 1 al 10")
+
+// if (edad >= 18 && altura > 150 && vision > 7){
+//     console.log(nombre + " esta capacitado para conducir")
+// } else {
+//     console.log(nombre + " no esta capacitado para conducir")
+// }
+
 //Ejercicio 7 (Realizar un programa que permita el ingreso de los siguientes datos: Nombre, pase (vip o normal), si posee entrada (si o no, s o n, true o false). Las personas que posean tu mismo nombre tienen ingreso libre así como también los que posean un pase vip, mostrar un mensaje de bienvenida. Si posee entrada preguntar si desea utilizarla, en caso afirmativo mostrar mismo mensaje de bienvenida. Y por ultimo de no tener el mismo nombre o poseer un pase vip o entrada, preguntar si desea comprar, caso afirmativo solicitar dinero disponible, si posee $1000 o mas, mostrar mensaje de venta de entrada y bienvenida, caso contrario mostrar mensaje de rechazo de venta, y en caso contrario a no querer comprar, mostrar mensaje de despedida.)
+
+
 
 //Ejercicio 8 (Realizar un juego de adivinanza estableciendo un valor entre 1 y 10 en una variable llamada numeroIncognita y que permita en 3 intentos adivinar el numero. El usuario deberá ingresar un numero del 1 al 10 por pantalla en 3 intentos el cual se deberá guardar en una variable llamada numeroIngresado, y en cada intento deberás mostrarle un mensaje al usuario diciendo: “el numero ingresado es mayor, vuelve a intentarlo” o “el numero ingresado es menor, vuelve a intentarlo” o en caso de adivinar, un mensaje que diga: “Ganaste, haz adivinado el numero.” No te preocupes si usas mucho código repetido, mas adelante veraz como realizar este juego de manera mas eficiente.)
 
