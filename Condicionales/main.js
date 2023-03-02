@@ -110,12 +110,23 @@ let nombre = prompt("Ingresa tu nombre");
 let pase = prompt("Introduzca su pase (“VIP”, “NORMAL” o “LIMITADO”)");
 let poseeEntrada = prompt("¿Posee entrada? SI/NO");
 
-if ( nombre === "Natalie" || pase === "VIP"){
+if (nombre === "Natalie" || pase === "vip") {
     console.log("¡Bienvenido/a!");
-} else if(poseeEntrada=== "SI"){
+} else if (poseeEntrada === "si") {
     console.log("¡Bienvenido/a!");
 } else {
-    let compraEntrada = prompt("¿Desea comprar una entrada? SI/NO")
+
+    let compraEntrada = prompt("¿Desea comprar una entrada? SI/NO");
+    if (compraEntrada === "si") {
+        let saldo = prompt("Ingrese su saldo disponible")
+    }
+} if (saldo >= 1000) {
+    console.log("Usted a comprado una entrada, bienvenido/a");
+}
+else if (saldo < 1000) {
+    console.log("Usted no posee saldo disponible");
+} else {
+    console.log("Hasta luego")
 }
 
 
