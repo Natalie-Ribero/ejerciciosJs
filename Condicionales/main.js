@@ -105,6 +105,12 @@
 // }
 
 //Ejercicio 7 (Realizar un programa que permita el ingreso de los siguientes datos: Nombre, pase (vip o normal), si posee entrada (si o no, s o n, true o false). Las personas que posean tu mismo nombre tienen ingreso libre así como también los que posean un pase vip, mostrar un mensaje de bienvenida. Si posee entrada preguntar si desea utilizarla, en caso afirmativo mostrar mismo mensaje de bienvenida. Y por ultimo de no tener el mismo nombre o poseer un pase vip o entrada, preguntar si desea comprar, caso afirmativo solicitar dinero disponible, si posee $1000 o mas, mostrar mensaje de venta de entrada y bienvenida, caso contrario mostrar mensaje de rechazo de venta, y en caso contrario a no querer comprar, mostrar mensaje de despedida.)
+let nombreLibre = "Natalie"
+
+let nombre = prompt("Ingresa tu nombre");
+let pase = prompt("Introduzca su pase (“VIP”, “NORMAL” o “LIMITADO”)");
+let poseeEntrada = prompt("¿Posee entrada? SI/NO")
+let saldo = prompt("Introduzca su saldo");
 
 
 
