@@ -145,10 +145,28 @@
 
 //Ejercicio 9 (Crear un programa que permita ingresar tu edad y decir si eres un infante (0 a 12 años), adolescente(13 a 18 años), un mayor joven (19 a 45 años) o un anciano (mas de 45 años), y en caso de ingresar una edad mayor a 100 mostrar un mensaje preguntando si en realidad tiene esa edad.)
 
+let edadIngresada = parseInt(prompt("Ingresa tu edad"));
 
+if (edadIngresada > 0 && edadIngresada <= 12) {
+    alert("infante");
+} else if (edadIngresada >= 13 && edadIngresada <= 18) {
+    alert("adolescente");
+} else if (edadIngresada >= 19 && edadIngresada <= 45) {
+    alert("mayor joven");
+} else if (edadIngresada >= 46 && edadIngresada < 100) {
+    alert("anciana");
+}else {
+    alert("¿Realmente tienes esa edad?");
+}
 
 
 //Ejercicio 10 (Crear un programa que permita el ingreso de “PIEDRA”, “PAPEL” o “TIJERAS” a 2 jugadores y muestre en pantalla cual de los 2 ha ganado o si han empatado. En caso de algún ingreso incorrecto mostrar por pantalla que uno de los jugadores ha hecho trampa.)
+
+// let jugador1 = prompt("jugador 1 elije, piedra/papel/tijera");
+// let jugador2 = prompt("jugador 2 elije, piedra/papel/tijera");
+
+
+
 
 //Ejercicio 11 (Realizar un programa que permita el ingreso de un color y utilizando “switch” mostrar por pantalla los siguientes mensajes según las opciones: Blanco o Negro: Falta de color, Verde: El color de la naturaleza, Azul: El color del agua, Amarillo: El color del sol, Rojo: El color del fuego, Marrón: el color de la tierra, y para cualquier otro valor: Excelente elección, no lo teníamos pensado.)
 
