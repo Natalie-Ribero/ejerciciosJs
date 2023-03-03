@@ -1,12 +1,9 @@
 //Ejercicio 1 (Realizar un programa que dado 2 números imprima por consola si el primer numero es mayor que el segundo.)
 
-// let respuesta1 = prompt("Introduzca un numero");
-// let respuesta2 = prompt("Introduzca otro numero");
+// let respuesta1 = parseInt(prompt("Introduzca un numero"));
+// let respuesta2 = parseInt(prompt("Introduzca otro numero"));
 
-// let numero1 = parseInt(respuesta1);
-// let numero2 = parseInt(respuesta2);
-
-// if (numero1 > numero2) {
+// if (respuesta1 > respuesta2) {
 //     console.log("El primer numero es mayor al segundo");
 // } else {
 //     console.log("El segundo numero es mayor al primero");
@@ -112,7 +109,17 @@ const entrada = prompt ("¿Tenes entrada?");
 if("natalie" === persona || pase === "vip" || entrada === "si"){
     console.log("Bienvenido al evento");
 } else {
-    
+    const compra = prompt("¿Desea comprar una entrada? si/no");
+    if(compra === "si"){
+        const saldo = parseInt(prompt("Ingrese su dinero disponible"));
+        if(saldo >= 1000){
+            console.log("La compra se realizo con exito, Bienvenido al evento");
+        }else{
+            console.log("Saldo insuficiente");
+        }
+    } else {
+        console.log("Hasta luego");
+    }
 }
 
 
