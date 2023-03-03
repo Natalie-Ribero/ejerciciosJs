@@ -102,30 +102,51 @@
 // }
 
 //Ejercicio 7 (Realizar un programa que permita el ingreso de los siguientes datos: Nombre, pase (vip o normal), si posee entrada (si o no, s o n, true o false). Las personas que posean tu mismo nombre tienen ingreso libre así como también los que posean un pase vip, mostrar un mensaje de bienvenida. Si posee entrada preguntar si desea utilizarla, en caso afirmativo mostrar mismo mensaje de bienvenida. Y por ultimo de no tener el mismo nombre o poseer un pase vip o entrada, preguntar si desea comprar, caso afirmativo solicitar dinero disponible, si posee $1000 o mas, mostrar mensaje de venta de entrada y bienvenida, caso contrario mostrar mensaje de rechazo de venta, y en caso contrario a no querer comprar, mostrar mensaje de despedida.)
-const persona = prompt ("¿Cual es tu nombre?");
-const pase= prompt ("¿Que tipo de pase tenes? vip/normal");
-const entrada = prompt ("¿Tenes entrada?");
 
-if("natalie" === persona || pase === "vip" || entrada === "si"){
-    console.log("Bienvenido al evento");
-} else {
-    const compra = prompt("¿Desea comprar una entrada? si/no");
-    if(compra === "si"){
-        const saldo = parseInt(prompt("Ingrese su dinero disponible"));
-        if(saldo >= 1000){
-            console.log("La compra se realizo con exito, Bienvenido al evento");
-        }else{
-            console.log("Saldo insuficiente");
-        }
-    } else {
-        console.log("Hasta luego");
-    }
-}
+// const persona = prompt ("¿Cual es tu nombre?");
+// const pase= prompt ("¿Que tipo de pase tenes? vip/normal");
+// const entrada = prompt ("¿Tenes entrada?");
+
+// if("natalie" === persona || pase === "vip" || entrada === "si"){
+//     alert("Bienvenido al evento");
+//  } else {
+//     const compra = prompt("¿Desea comprar una entrada? si/no");
+//     if(compra === "si"){
+//         const saldo = parseInt(prompt("Ingrese su dinero disponible"));
+//         if(saldo >= 1000){
+//             alert("La compra se realizo con exito, Bienvenido al evento");
+//         }else{
+//             alert("Saldo insuficiente");
+//         }
+//     } else {
+//         alert("Hasta luego");
+//     }
+// }
 
 
 //Ejercicio 8 (Realizar un juego de adivinanza estableciendo un valor entre 1 y 10 en una variable llamada numeroIncognita y que permita en 3 intentos adivinar el numero. El usuario deberá ingresar un numero del 1 al 10 por pantalla en 3 intentos el cual se deberá guardar en una variable llamada numeroIngresado, y en cada intento deberás mostrarle un mensaje al usuario diciendo: “el numero ingresado es mayor, vuelve a intentarlo” o “el numero ingresado es menor, vuelve a intentarlo” o en caso de adivinar, un mensaje que diga: “Ganaste, haz adivinado el numero.” No te preocupes si usas mucho código repetido, mas adelante veraz como realizar este juego de manera mas eficiente.)
 
+// let numeroIncognita = 3;
+// alert("Adivina el numero, tienes 3 intentos")
+
+// for (contador = 3; contador > 0; contador -= 1) {
+//     let numeroIngresado = parseInt(prompt("Ingrese un numero del 1 al 10"));
+//     if (numeroIngresado > numeroIncognita) {
+//         alert("el numero " + numeroIngresado + " es mayor al numero a adivinar");
+
+//     } else if (numeroIngresado < numeroIncognita) {
+//         alert("el numero " + numeroIngresado + " es menor al numero a adivinar");
+
+//     } else {
+//         alert("Ganaste, haz adivinado el numero");
+//         break;
+//     }
+// }
+
 //Ejercicio 9 (Crear un programa que permita ingresar tu edad y decir si eres un infante (0 a 12 años), adolescente(13 a 18 años), un mayor joven (19 a 45 años) o un anciano (mas de 45 años), y en caso de ingresar una edad mayor a 100 mostrar un mensaje preguntando si en realidad tiene esa edad.)
+
+
+
 
 //Ejercicio 10 (Crear un programa que permita el ingreso de “PIEDRA”, “PAPEL” o “TIJERAS” a 2 jugadores y muestre en pantalla cual de los 2 ha ganado o si han empatado. En caso de algún ingreso incorrecto mostrar por pantalla que uno de los jugadores ha hecho trampa.)
 
