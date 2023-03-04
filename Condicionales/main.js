@@ -145,19 +145,19 @@
 
 //Ejercicio 9 (Crear un programa que permita ingresar tu edad y decir si eres un infante (0 a 12 años), adolescente(13 a 18 años), un mayor joven (19 a 45 años) o un anciano (mas de 45 años), y en caso de ingresar una edad mayor a 100 mostrar un mensaje preguntando si en realidad tiene esa edad.)
 
-let edadIngresada = parseInt(prompt("Ingresa tu edad"));
+// let edadIngresada = parseInt(prompt("Ingresa tu edad"));
 
-if (edadIngresada > 0 && edadIngresada <= 12) {
-    alert("infante");
-} else if (edadIngresada >= 13 && edadIngresada <= 18) {
-    alert("adolescente");
-} else if (edadIngresada >= 19 && edadIngresada <= 45) {
-    alert("mayor joven");
-} else if (edadIngresada >= 46 && edadIngresada < 100) {
-    alert("anciana");
-}else {
-    alert("¿Realmente tienes esa edad?");
-}
+// if (edadIngresada > 0 && edadIngresada <= 12) {
+//     alert("infante");
+// } else if (edadIngresada >= 13 && edadIngresada <= 18) {
+//     alert("adolescente");
+// } else if (edadIngresada >= 19 && edadIngresada <= 45) {
+//     alert("mayor joven");
+// } else if (edadIngresada >= 46 && edadIngresada < 100) {
+//     alert("anciana");
+// }else {
+//     alert("¿Realmente tienes esa edad?");
+// }
 
 
 //Ejercicio 10 (Crear un programa que permita el ingreso de “PIEDRA”, “PAPEL” o “TIJERAS” a 2 jugadores y muestre en pantalla cual de los 2 ha ganado o si han empatado. En caso de algún ingreso incorrecto mostrar por pantalla que uno de los jugadores ha hecho trampa.)
@@ -165,11 +165,72 @@ if (edadIngresada > 0 && edadIngresada <= 12) {
 // let jugador1 = prompt("jugador 1 elije, piedra/papel/tijera");
 // let jugador2 = prompt("jugador 2 elije, piedra/papel/tijera");
 
+// if ((jugador1 === "piedra" && jugador2 === "tijera") || (jugador1 === "papel" && jugador2 === "piedra") || (jugador1 === "tijera" && jugador2 === "papel")) {
+//     alert("Jugador 1 ha ganado");
+// } else if ((jugador2 === "piedra" && jugador1 === "tijera") || (jugador2 === "papel" && jugador1 === "piedra") || (jugador2 === "tijera" && jugador1 === "papel")) {
+//     alert("Jugador 2 ha ganado");
+// } else {
+//     alert("Hicieron trampa");
+// }
+
 
 
 
 //Ejercicio 11 (Realizar un programa que permita el ingreso de un color y utilizando “switch” mostrar por pantalla los siguientes mensajes según las opciones: Blanco o Negro: Falta de color, Verde: El color de la naturaleza, Azul: El color del agua, Amarillo: El color del sol, Rojo: El color del fuego, Marrón: el color de la tierra, y para cualquier otro valor: Excelente elección, no lo teníamos pensado.)
 
+// let color = prompt("Ingresa un color");
+// switch (color) {
+//     case ("blanco" || "negro"):
+//         alert("Falta de color");
+//         break;
+//     case ("verde"):
+//         alert("El color de la naturaleza");
+//         break;
+//     case ("azul"):
+//         alert("El color del agua");
+//         break;
+//     case ("amarillo"):
+//         alert("El color del sol");
+//         break;
+//     case ("rojo"):
+//         alert("El color del fuego");
+//         break;
+//     case ("marron"):
+//         alert("el color de la tierra");
+//         break;
+//     default:
+//         alert("Excelente elección, no lo teníamos pensado");
+//         break;
+// }
+
 //Ejercicio 12 (Realizar un programa que permita el ingreso de 2 valores numéricos y una operación. Según sea la operación ingresada (suma, resta, multiplicación, división) el programa deberá mostrar en pantalla un mensaje junto con el resultado. En caso de haber elegido división realizar la operación siempre que sea posible o mostrar un mensaje de ERROR si el divisor ingresado fue 0.)
 
+// alert("Calculadora de dos numeros");
+// let num1 = parseInt(prompt("Ingresa el primer numero"));
+// let num2 = parseInt(prompt("Ingresa el segundo numero"));
+// let operacion = prompt("Eligue que operacion quiere realizar (suma, resta, multiplicación, división)");
+
+// switch (operacion) {
+//     case "suma":
+//         alert("Resultado: " + (num1 + num2));
+//         break;
+//     case "resta":
+//         alert("Resultado: " + (num1 - num2));
+//         break;
+//     case "multiplicacion":
+//         alert("Resultado: " + (num1 * num2));
+//         break;
+//     case "division":
+//         if (num2 === 0) {
+//             alert("ERROR el numero no se puede dividir por 0")
+//         } else {
+//             alert("Resultado: " + (num1 / num2));
+//         }
+//         break;
+// }
+
+
+
 //Ejercicio 13 (Crear un programa que permita ingresar todos los datos de tu documento nacional de identidad, mostrar por pantalla un mensaje que imprima todos los datos ingresados y pregunte si están correctos los mismos. En caso afirmativo, crear un objeto llamado dni con todos los datos ingresados y mostrarlos por consola con console.table() mas un mensaje de registro exitoso, en caso de que la persona rechace confirmar los datos, mostrar un mensaje que diga: vuelva a intentarlo en 1 mes.)
+
+let datosDni = prompt("Ingrese su numero de DNI");
