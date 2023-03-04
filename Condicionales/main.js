@@ -233,4 +233,17 @@
 
 //Ejercicio 13 (Crear un programa que permita ingresar todos los datos de tu documento nacional de identidad, mostrar por pantalla un mensaje que imprima todos los datos ingresados y pregunte si están correctos los mismos. En caso afirmativo, crear un objeto llamado dni con todos los datos ingresados y mostrarlos por consola con console.table() mas un mensaje de registro exitoso, en caso de que la persona rechace confirmar los datos, mostrar un mensaje que diga: vuelva a intentarlo en 1 mes.)
 
-let datosDni = prompt("Ingrese su numero de DNI");
+// let nombreDni = prompt("Ingrese su nombre como figura en su DNI");
+// let datosDni = prompt("Ingrese su numero de DNI");
+// let esCorrecto = prompt("El nombre ingresado es: " + nombreDni + " El DNI ingresado es: " + datosDni + " ¿Es correcto? si/no");
+
+// if (esCorrecto === "si") {
+//     const dni = {
+//         nombre: nombreDni,
+//         numero: datosDni
+//     }
+//     console.table(dni);
+//     console.log("Registro exitoso");
+// } else {
+//     alert("vuelva a intentarlo en 1 mes");
+// }
