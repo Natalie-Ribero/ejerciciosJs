@@ -208,19 +208,19 @@
 // alert("Calculadora de dos numeros");
 // let num1 = parseInt(prompt("Ingresa el primer numero"));
 // let num2 = parseInt(prompt("Ingresa el segundo numero"));
-// let operacion = prompt("Eligue que operacion quiere realizar (suma, resta, multiplicación, división)");
+// let operacion = prompt("Eligue que operacion quiere realizar (+,-,*,/)");
 
 // switch (operacion) {
-//     case "suma":
+//     case "+":
 //         alert("Resultado: " + (num1 + num2));
 //         break;
-//     case "resta":
+//     case "-":
 //         alert("Resultado: " + (num1 - num2));
 //         break;
-//     case "multiplicacion":
+//     case "*":
 //         alert("Resultado: " + (num1 * num2));
 //         break;
-//     case "division":
+//     case "/":
 //         if (num2 === 0) {
 //             alert("ERROR el numero no se puede dividir por 0")
 //         } else {
