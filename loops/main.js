@@ -1,10 +1,10 @@
 //Ejercicio 1. Realizar un programa que permita el ingreso de un numero y muestre su tabla de
 // multiplicar (Los primeros 10 multiplos).
-let num  = parseInt(prompt("Ingrese un numero para obtener su tabla"));
-for (let index = 0; index < 11; index++) {
-    num * index
-    
-}
+// let num  = parseInt(prompt("Ingrese un numero para obtener su tabla"));
+// for (let index = 0; index < 11; index++) {
+//     console.table (num * index);
+// }
+console.log("hola mundo;")
 
 //Ejercicio 2. Realizar un programa que permita el ingreso de numeros los cuales se tienen que ir
 // acumulando. El ingreso de datos terminara cuando el usuario ingrese un valor 0.
