@@ -9,9 +9,13 @@
 
 //Ejercicio 2. Realizar un programa que permita el ingreso de numeros los cuales se tienen que ir
 // acumulando. El ingreso de datos terminara cuando el usuario ingrese un valor 0.
+let acumulador = [];
+let numero = prompt("Ingrese un numero para acumular, cuando desee frenar ingrese el 0");
+do {
+    acumulador.push(numero);
+} while (numero !== 0);
+console.log(acumulador);
 
-let numero = parseInt(prompt("Ingrese un numero que quiere que se acumule, cuando desee terminar coloque el numero 0"));
-let acumulacion = []
 
 
 
